@@ -20,6 +20,3 @@ A general purpose poker library, focusing specifically on No Limit Texas Hold 'E
   - [ ] Correctly rank the competing classes of multiple hands on a board
   - [ ] Implement exhaustive and Monte Carlo equity calculations for hands on a given board
 
-
-
-
