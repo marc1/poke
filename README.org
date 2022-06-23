@@ -1,0 +1,22 @@
+* poke
+A general purpose poker library, focusing specifically on No Limit Texas Hold 'Em.
+
+** Goals
+- Accurately represent and conform to the rules of NLHE
+- Perform equity calculations, combination counting
+- Intelligently represent the concept of "ranges"; sets of hands 
+- Account for card removal
+- Parse strings represent cards, suits, and ranges
+- Construct arbitrarily complex game trees
+  - Handle actions like folds, checks, bets (and raises)
+  - Account for bet sizing rules
+  - Track pot size
+  - Handle side pots
+
+** Stages
+- Stage 1 [0/4]
+  - [ ] Represent Cards, sets of Cards, and a Deck
+  - [ ] Correctly evaluate the class of a hand on a board (i.e. Aces full of Kings, Eight-high flush, etc.)
+  - [ ] Correctly rank the competing classes of multiple hands on a board
+  - [ ] Implement exhaustive and Monte Carlo equity calculations for hands on a given board
+
