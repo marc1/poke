@@ -1,0 +1,10 @@
+#![feature(generic_const_exprs)]
+
+use super::{ Card, Rank, Suit };
+
+pub struct CardSet<const SIZE: usize> {
+    cards: [Card; SIZE]
+}
+
+
+
